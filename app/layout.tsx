@@ -3,7 +3,7 @@ import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Kühlschrank-Zwilling',
-  description: 'Digitaler Zwilling deines Kühlschrankinhalts – v0.1'
+  description: 'Digitaler Zwilling deines Kühlschrankinhalts – v0.1.2'
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
